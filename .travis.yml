@@ -1,12 +1,12 @@
 sudo: false
 language: python
+arch:
+    - ppc64le
+    - amd64
 cache: pip
 dist: xenial
 
 matrix:
-  arch:
-    - ppc64le
-    - amd64
   include:
     # el8
     - python: 3.6
