@@ -6,6 +6,7 @@ dist: xenial
 matrix:
   arch:
     - ppc64le
+    - amd64
   include:
     # el8
     - python: 3.6
